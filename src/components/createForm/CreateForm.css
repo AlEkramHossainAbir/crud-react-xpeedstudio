@@ -1,0 +1,31 @@
+.form_container{
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.btn{
+    background-color: rgb(115, 77, 252);
+    color: white;
+    font-size: 16px;
+    padding: 5px;
+    margin: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+Input{
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.submit_btn:hover{
+    background-color: teal;
+}

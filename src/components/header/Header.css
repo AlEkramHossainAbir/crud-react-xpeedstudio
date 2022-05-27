@@ -1,0 +1,37 @@
+.title{
+   
+    cursor: pointer;
+ }
+ .navbar{
+     padding:  30px ;
+     color: gold;
+     background-color: black;
+     display: flex;
+     justify-content: space-between;
+ }
+ .nav{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+      
+ }
+ .navItem{
+     justify-content: space-between;
+     padding: 50px;
+     color: white;
+     font-weight: 800px;
+     font-size: 20px;
+     text-decoration: none;
+    
+     
+ }
+ @media screen and (max-width: 900px) {
+     .nav{
+        flex: 1;
+        flex-direction: column;
+     }
+     .navItem{
+         display: block;
+         padding: 5px;
+     }
+ }
